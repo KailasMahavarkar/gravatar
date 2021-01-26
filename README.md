@@ -3,8 +3,8 @@ Generate Beautiful gravatar using python (pillow library)
 
 
 # use
-
-AVATAR(
+```
+AVATAR( 
 	# size of gravatar
 	box=500,
 	# background color
@@ -12,3 +12,4 @@ AVATAR(
 	# block color
 	color=getRandomName()
 ).generate()
+```
